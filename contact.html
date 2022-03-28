@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Contact</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,7 +16,7 @@
 
 </head>
 <body>
-
+    
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -35,7 +35,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">
+                <a class="nav-link" aria-current="page" href="index.html">
                     Home
                 </a>
               </li>
@@ -55,7 +55,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">
+                <a class="nav-link active" href="contact.html">
                     Contact
                 </a>
               </li>
@@ -68,60 +68,79 @@
           </div>
 
         </div>
-      </nav>
+    </nav>
 
-      <!-- Card Deck for Pages -->
-      <div class="card-group">
+    <!-- Jumbo Title -->
+    <div class="jumbotron jumbotron-fluid contact-jumbo">
+        <div class="container">
+          <h1 class="display-4 text-center text-white">
+              Contact
+          </h1>
+        </div>
+      </div>
 
-        <!-- Product Management -->
-        <div class="card pm">
-            <div class="card-body offset-md-1 row align-items-center">
-                <div class="col-md-12">
-                    <a href="product.html">
-                        <h5 class="card-title text-dark display-3 bg-light text-center">
-                            Product Management
-                        </h5>
-                    </a>
-                </div>
+    <div class="container">
+
+        <!-- Contact Form -->
+        <div class="row">
+            <div class="col-6">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" placeholder="Enter name" id="name">
+                      </div>
+                    <div class="form-group">
+                      <label for="email">Email address:</label>
+                      <input type="email" class="form-control" placeholder="Enter email" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message:</label>
+                      <textarea class="form-control" placeholder="Enter message here" name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+
+            <div class="col-6">
+                <h1 class="h4 font-weight-light">
+                    Contact Info:
+                </h1>
+                <h1 class="h5">
+                    Email:
+                    <span class="font-weight-light">
+                        <a href="mailto: jcavazos1@babson.edu">
+                            jcavazos1@babson.edu
+                        </a>
+                    </span>
+                </h1>
+                <h1 class="h5">
+                    LinkedIn:
+                    <span class="font-weight-light">
+                        <a href="https://www.linkedin.com/in/jonathan-cavazos-007574201" target="_blank">
+                            Jonathan Cavazos
+                        </a>
+                    </span>
+                </h1>
+                <h1 class="h5">
+                    Github:
+                    <span class="font-weight-light">
+                        <a href="https://github.com/jonathancavazos" target="_blank">
+                            Jonathan Cavazos
+                        </a>
+                    </span>
+                </h1>
+                
+                <img class="vincent" src="img/vincent.gif" alt="Vincent Vega" title="Vincent Vega">
             </div>
         </div>
+    </div>
 
-        <!-- Coding -->
-        <div class="card code">
-          <div class="card-body offset-md-1 row align-items-center">
-              <div class="col-md-12">
-                <a href="coding.html">
-                    <h5 class="card-title text-dark display-3 bg-light text-center">
-                        Coding
-                    </h5>
-                </a>
-              </div>
-          </div>
-        </div>
 
-        <!-- About -->
-        <div class="card about">
-          <div class="card-body offset-md-1 row align-items-center">
-              <div class="col-md-12">
-                <a href="about.html">
-                    <h5 class="card-title text-dark display-3 bg-light text-center">
-                        About
-                    </h5>
-                </a>
-              </div>
-          </div>
-        </div>
-
-      </div>
-      
-
+    
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <!-- Javascript -->
-    <script src="js/animation.js"></script>
 
 </body>
-</html>

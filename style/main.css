@@ -1,0 +1,77 @@
+.logo {
+    height: 40px;
+}
+
+/* Home */
+.pm {
+    height: 95vh;
+    background-image: url(../img/pm.jpg);
+    background-size: 150vh;
+    opacity: 0.95;
+}
+
+.code {
+    height: 95vh;
+    background-image: url(../img/code.jpg);
+    background-size: 150vh;
+    opacity: 0.95;
+}
+
+.about {
+    height: 95vh;
+    background-image: url(../img/film.webp);
+    background-size: 80vh;
+    opacity: 0.95;
+}
+
+/* Product */
+
+.pm-jumbo {
+    background-image: url(../img/pm-jumbo.jpg);
+    background-size: 100vw;
+    opacity: 0.9;
+}
+
+.pm-def {
+    height: 240px;
+}
+
+.code-jumbo {
+    background-image: url(../img/code.jpg);
+    background-size: 100vw;
+    opacity: 0.9;
+}
+
+/* Coding */
+.wave {
+    height: 300px;
+} 
+
+.alfred {
+    height: 300px;
+}
+
+/* About */
+
+.about-jumbo {
+    background-image: url(../img/film.jpg);
+    background-size: 100vw;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.jonathan {
+    height: 200px;
+}
+
+/* Contact */
+
+.contact-jumbo {
+    background-image: url(../img/contact.jpg);
+    background-size: 100vw;
+    background-position: center;
+}
+
+.vincent {
+    height: 300px;
+}
