@@ -27,7 +27,7 @@
             </a>
 
         <!-- Toggle Button -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -71,48 +71,50 @@
       </nav>
 
       <!-- Card Deck for Pages -->
-      <div class="card-group">
+      <div class="max-width">
+        <div class="card-group">
 
-        <!-- Product Management -->
-        <div class="card pm">
-            <div class="card-body offset-md-1 row align-items-center">
+          <!-- Product Management -->
+          <div class="card pm">
+              <div class="card-body offset-md-1 row align-items-center no-margin-rt">
+                  <div class="col-md-12">
+                      <a href="product.html">
+                          <h5 class="card-title text-dark display-4 bg-light text-center">
+                              Product Management
+                          </h5>
+                      </a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Coding -->
+          <div class="card code">
+            <div class="card-body offset-md-1 row align-items-center no-margin-rt">
                 <div class="col-md-12">
-                    <a href="product.html">
-                        <h5 class="card-title text-dark display-3 bg-light text-center">
-                            Product Management
-                        </h5>
-                    </a>
+                  <a href="coding.html">
+                      <h5 class="card-title text-dark display-3 bg-light text-center">
+                          Coding
+                      </h5>
+                  </a>
                 </div>
             </div>
-        </div>
+          </div>
 
-        <!-- Coding -->
-        <div class="card code">
-          <div class="card-body offset-md-1 row align-items-center">
-              <div class="col-md-12">
-                <a href="coding.html">
-                    <h5 class="card-title text-dark display-3 bg-light text-center">
-                        Coding
-                    </h5>
-                </a>
-              </div>
+          <!-- About -->
+          <div class="card about">
+            <div class="card-body offset-md-1 row align-items-center no-margin-rt">
+                <div class="col-md-12">
+                  <a href="about.html">
+                      <h5 class="card-title text-dark display-3 bg-light text-center">
+                          About
+                      </h5>
+                  </a>
+                </div>
+            </div>
           </div>
         </div>
-
-        <!-- About -->
-        <div class="card about">
-          <div class="card-body offset-md-1 row align-items-center">
-              <div class="col-md-12">
-                <a href="about.html">
-                    <h5 class="card-title text-dark display-3 bg-light text-center">
-                        About
-                    </h5>
-                </a>
-              </div>
-          </div>
-        </div>
-
       </div>
+      
       
 
     <!-- Bootstrap -->

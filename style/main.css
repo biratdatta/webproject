@@ -3,25 +3,30 @@
 }
 
 /* Home */
+
 .pm {
-    height: 95vh;
+    height: 92vh;
     background-image: url(../img/pm.jpg);
     background-size: 150vh;
     opacity: 0.95;
 }
 
 .code {
-    height: 95vh;
+    height: 92vh;
     background-image: url(../img/code.jpg);
     background-size: 150vh;
     opacity: 0.95;
 }
 
 .about {
-    height: 95vh;
+    height: 92vh;
     background-image: url(../img/film.webp);
     background-size: 80vh;
     opacity: 0.95;
+}
+
+.no-margin-rt {
+    margin-right: 0;
 }
 
 /* Product */
